@@ -17,9 +17,10 @@ and for general information about the Cake build automation system see the [Cake
 
 ## Build Status
 
-|Develop|Master|
-|:--:|:--:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/s8t8j2gh6icynkod/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-pullrequests-appveyor/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/s8t8j2gh6icynkod/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-pullrequests-appveyor/branch/master)|
+| | Develop | Master |
+|:--:|:--:|:--:|
+|AppVeyor Windows|[![Build status](https://ci.appveyor.com/api/projects/status/s8t8j2gh6icynkod/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-pullrequests-appveyor/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/s8t8j2gh6icynkod/branch/master?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-pullrequests-appveyor/branch/master)|
+|Azure DevOps Windows|[![Build Status](https://dev.azure.com/cake-contrib/Cake.Issues.PullRequests.AppVeyor/_apis/build/status/cake-contrib.Cake.Issues.PullRequests.AppVeyor?branchName=develop&jobName=Windows)](https://dev.azure.com/cake-contrib/Cake.Issues.PullRequests.AppVeyor/_build/latest?definitionId=11?branchName=develop)|[![Build Status](https://dev.azure.com/cake-contrib/Cake.Issues.PullRequests.AppVeyor/_apis/build/status/cake-contrib.Cake.Issues.PullRequests.AppVeyor?branchName=master&jobName=Windows)](https://dev.azure.com/cake-contrib/Cake.Issues.PullRequests.AppVeyor/_build/latest?definitionId=11?branchName=master)|
 
 ## Code Coverage
 
