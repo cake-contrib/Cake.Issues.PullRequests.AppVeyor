@@ -3,7 +3,7 @@
 Environment.SetVariableNames();
 
 BuildParameters.SetParameters(
-    context: Context, 
+    context: Context,
     buildSystem: BuildSystem,
     sourceDirectoryPath: "./src",
     title: "Cake.Issues.PullRequests.AppVeyor",
@@ -11,7 +11,8 @@ BuildParameters.SetParameters(
     repositoryName: "Cake.Issues.PullRequests.AppVeyor",
     appVeyorAccountName: "cakecontrib",
     shouldGenerateDocumentation: false,
-    shouldRunCodecov: true);
+    shouldRunCodecov: true,
+    shouldRunGitVersion: true);
 
 BuildParameters.PrintParameters(Context);
 
