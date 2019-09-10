@@ -11,7 +11,8 @@ BuildParameters.SetParameters(
     repositoryName: "Cake.Issues.PullRequests.AppVeyor",
     appVeyorAccountName: "cakecontrib",
     shouldGenerateDocumentation: false,
-    shouldRunCodecov: true);
+    shouldRunCodecov: true,
+    shouldRunGitVersion: true);
 
 BuildParameters.PrintParameters(Context);
 
