@@ -19,7 +19,11 @@ BuildParameters.PrintParameters(Context);
 
 ToolSettings.SetToolSettings(
     context: Context,
-    dupFinderExcludePattern: new string[] { BuildParameters.RootDirectoryPath + "/src/Cake.Issues.PullRequests.AppVeyor.Tests/*.cs" },
+    dupFinderExcludePattern: new string[]
+    {
+        BuildParameters.RootDirectoryPath + "/src/Cake.Issues.PullRequests.AppVeyor*/**/*.AssemblyInfo.cs",
+        BuildParameters.RootDirectoryPath + "/src/Cake.Issues.PullRequests.AppVeyor.Tests/**/*.cs"
+    },
     testCoverageFilter: "+[*]* -[xunit.*]* -[Cake.Core]* -[Cake.Testing]* -[*.Tests]* -[Cake.Issues]* -[Cake.Issues.Testing]* -[Cake.Issues.PullRequests]* -[Shouldly]* -[DiffEngine]* -[EmptyFiles]*",
     testCoverageExcludeByAttribute: "*.ExcludeFromCodeCoverage*",
     testCoverageExcludeByFile: "*/*Designer.cs;*/*.g.cs;*/*.g.i.cs");
